@@ -41,3 +41,8 @@ footer .footer-below {
 .fa {
 	color: #fff;
 }
+
+#latest {
+	height: 250px;
+	width: 400px;
+}
