@@ -1,0 +1,156 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 100px;
+  font-family: 'Lora', serif;  
+}
+
+#abouttext {
+  font-size: 18px;
+}
+
+.about-tabs > li > a {
+  font-size: 15px;
+}
+
+#jumbotron {
+  height: 700px;
+  background-image: url("../images/header.jpg");
+  background-size: cover;
+  margin-bottom: 0;
+}
+
+#jumbotext {
+  margin-top: 175px;
+  color: #fff;
+}
+
+#jumbotron2 {
+  height: 120px;
+  background-color: #84aad1;
+  color: white;
+  padding: 0;
+}
+.testheader {
+  margin: 0;
+}
+.thumbnails {
+  margin-top: 20px;
+}
+
+.form {
+  width: 100%;
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+  height: 120px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+  margin-top: 10px;
+}
+
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+
+code {
+  font-size: 80%;
+}
+
+#logo1 {
+  height: 50px;
+  width: 200px;
+  /*margin-top: 0;*/
+}
+
+.navbar {
+  margin-bottom: 0;
+  background-color: #2e3758;
+  border: none;
+  font-family: 'Tenor Sans', sans-serif;
+  font-size: medium;
+}
+
+#title1 {
+  font-family: 'Archivo Black', sans-serif;
+}
+
+#slogan1 {
+  font-family: 'Tenor Sans', sans-serif;
+}
+
+.certificate {
+  height: 200px;
+  width: 200px;
+}
+
+.skills {
+  height: 150px;
+  width: 150px;
+}
+
+.skills2 {
+  height: 100px;
+  width: 100px;
+}
+
+ .btn {
+  font-family: 'Tenor Sans', sans-serif;
+}
+#summary1 {
+  font-family: 'Tenor Sans', sans-serif;
+}
+
+p, h4 {
+  font-family: 'Tenor Sans', sans-serif;
+}
+
+h1, h2, h3, h5 {
+  font-family: 'Archivo Black', sans-serif;
+}
+
+#aboutparagraph {
+  font-size: medium;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: white;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #84aad1;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: white;
+    background-color: #84aad1;
+}
+
+
+
+@media only screen and (max-width: 720px) {
+  .navbar-collapse {
+    background-color: #2e3758;
+    margin-top: 18px;
+    text-align: right;
+  }
+}
+
