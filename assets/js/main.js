@@ -1,3 +1,8 @@
+ $('.button-collapse').sideNav({
+      closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      draggable: true // Choose whether you can drag to open on touch screens
+    }
+  );
 $("#nav-item").find("a").click(function(e) {
     e.preventDefault();
     var section = $(this).attr("href");
