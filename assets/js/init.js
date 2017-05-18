@@ -2,7 +2,7 @@
   $(function(){
 
     $('.button-collapse').sideNav();
-		closeOnClick: true,
+		closeOnClick: true;
 		draggable: true
   		}); // end of document ready
 	})(jQuery); // end of jQuery name space
