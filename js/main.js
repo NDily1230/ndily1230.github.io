@@ -3,8 +3,9 @@
       draggable: true // Choose whether you can drag to open on touch screens
     }
   );
-$("#nav-item").find("a").click(function(e) {
+$(".nav-item").on('click', function(e) {
     e.preventDefault();
+    console.log("clicked");
     var section = $(this).attr("href");
     $("html, body").animate({
         scrollTop: $(section).offset().top
