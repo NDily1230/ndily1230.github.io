@@ -55,11 +55,11 @@ p {
   background-color: #e1bee7 !important; 
 }
 .tab a.active {
-  color: #ba68c8 !important;
+  color: #9c27b0 !important;
   background-color: #fff !important;
 }
 .tab a {
-  color: #ba68c8 !important;
+  color: #9c27b0 !important;
   background-color: #fff !important;
 }
 @media only screen and (max-width : 992px) {
