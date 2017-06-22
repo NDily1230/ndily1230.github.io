@@ -7,8 +7,8 @@
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
   <nav class="white" role="navigation">
@@ -73,7 +73,8 @@
             <img src="assets/img/js.png" class="skills" alt="Javascript">
             </p>
             <p>
-            <img src="assets/img/bootstrap.png" class="skills2" alt="Bootstrap">                
+            <img src="assets/img/bootstrap.png" class="skills2" alt="Bootstrap">
+            <img src="assets/img/materialize.png" class="skills2" alt="Materialize">                 
             <img src="assets/img/nodejs.png" class="skills2" alt="NodeJS">
             <img src="assets/img/php.png" class="skills2" alt="PHP">
             <img src="assets/img/sql.png" class="skills2" alt="MySql">
@@ -191,22 +192,22 @@
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
             <div class="row">
-              <form class="col s6">
+              <form class="col s6 contact-us" action="" method="post">
                 <div class="row">
                   <div class="input-field col s12">
-                    <input id="name" type="text" class="validate">
+                    <input id="name" type="text" class="validate" name="name">
                     <label for="name">Name</label>
                   </div>
                   <div class="input-field col s12">
-                    <input id="email" type="email" class="validate">
+                    <input id="email" type="email" class="validate" name="email">
                     <label for="email">Email</label>
                   </div>
                   <div class="input-field col s12">
-                  <textarea id="textarea1" class="materialize-textarea"></textarea>
+                  <textarea id="textarea1" class="materialize-textarea" name="msg"></textarea>
                   <label for="textarea1">Message</label>
                 </div>
                 </div>
-                <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                <button class="btn waves-effect waves-light contact" type="submit" name="action">Submit
                   <i class="material-icons right">send</i>
                 </button>
               </form>
@@ -239,8 +240,9 @@
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
-  <script src="js/main.js"></script>
+  <script src="assets/js/materialize.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.js"></script>
+  <script src="assets/js/init.js"></script>
+  <script src="assets/js/main.js"></script>
   </body>
 </html>
