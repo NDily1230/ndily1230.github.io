@@ -27,7 +27,7 @@ $('#btn').on('click', function(e){
                     console.log(pair[0]+ ', ' + pair[1]); 
                 };  
             $.ajax({
-                url: "./assets/ajax/mailer.php",
+                url: "../assets/ajax/mailer.php",
                 type: "POST",
                 data : form_data,
                 contentType: false,
