@@ -252,7 +252,7 @@
       <i class="tiny material-icons" style="color: purple">favorite</i>
     <div class="footer-copyright">
       <div class="container">
-      <p>Normandily Soto-Rivera &#183 2017</p>
+      <p>Normandily Soto-Rivera &#183 <?php echo date('Y'); ?></p>
       </div>
     </div>
   </footer>
